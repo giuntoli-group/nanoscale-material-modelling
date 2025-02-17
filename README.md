@@ -8,7 +8,7 @@
 
 This assignment introduces the fundamental packing problem in soft matter.
 
-## Instructions
+### Instructions
 
 1. **Run Simulation**
    - Execute the `in.3dlj` script on Habrok.
