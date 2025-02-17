@@ -1,4 +1,10 @@
-# Assignment 3
+# Tutorial 1
+
+## Assignment 1
+
+## Assignment 2
+
+## Assignment 3
 
 This assignment introduces the fundamental packing problem in soft matter.
 
@@ -25,6 +31,8 @@ This assignment introduces the fundamental packing problem in soft matter.
 4. **Run at Different Conditions**
    - Perform simulations at different temperatures and packing fractions.
    - Plot your findings to analyse the results.
+
+## Assignment 4
 
 ## Additional Information
 
