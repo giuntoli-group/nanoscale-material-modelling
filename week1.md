@@ -42,7 +42,7 @@ The system represents a polymer-graphene composite, but molecular bonds are remo
 
 ## Assignment 2
 
-Time to go on Habrok and run your first DFT simulation! To connect to Habrok (UTKU, PLEASE ADD HERE SOME BASIC LINKS AND INSTRUCTIONS ON SSH-ING TO HABROK, THE FOLDERS TO USE, A SCRIPT TO SEND JOBS, TRANSFERING FILES BACK AND FORTH, ETC... JAGODA WILL UPDATE SOME MATERIAL, BUT GOOD TO HAVE A STARTING POINT).
+Time to go on Habrok and run your first DFT simulation! To connect to Habrok (make sure you have an account and if you still don't, please follow the steps in [README.md](https://github.com/giuntoli-group/nanoscale-material-modelling/blob/main/README.md))
 
 Run Quantum Espresso simulation, calculate things.
 
@@ -67,7 +67,10 @@ b. **Extract Data from Log File**
      - Potential Energy
    - The log file is saved in a YAML format, which can be loaded into a Pandas DataFrame for easy manipulation.
 
-c. **Beadspring Analytics** (WHERE DO THEY GET INFORMATION/INSTRUCTIONS ON BEADSPRING ANALYTICS?)
+c. **Beadspring Analytics**
+   - Go to [beadspring](https://github.com/utkugurel/beadspring) repository and follow the installlation instructions. The package is not published on PyPI yet, so you have to install it within your environment from the source code. If any of the steps is not clear, please contact [Utku](u.y.gurel@rug.nl)
+   - You will find a minimally working example analysis script on the beadspring repo. Try to replicate it for your system. 
+   - Note that we rely on multiple Python packages and you might want to check certain functionalities within their documentation pages. You will find an incomplete list of those at the end of beadspring README.
    - Compute and report the radial distribution function and the mean squared displacement.
    - Refer to the following submodules for the computations:
      - `structural_properties`
