@@ -59,7 +59,9 @@ For Windows users, you'll need to download and install Putty, a free SSH client.
 
 #### Task 1: Complete [this tutorial](https://linuxsurvival.com/linux-tutorial-introduction/) on the command line
 
-Optional task: Watch [this video](https://www.youtube.com/watch?v=s3ii48qYBxA) 
+Optional task 1.1: Watch [this video](https://www.youtube.com/watch?v=s3ii48qYBxA) 
+
+Optional task 1.2: If what you want to do is more complicated than the simple shell commands like above, you will need to write bash scripts. Complete [this tutorial](https://www.shellscript.sh/) on bash scripting to learn more.
 
 #### Task 2: Connect to Habrok and access the shared workspace
 
