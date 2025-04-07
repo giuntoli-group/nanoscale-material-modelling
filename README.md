@@ -1,6 +1,6 @@
 # Course Main Repository 
 
-Welcome to Nanoscale Material Modelling! Access each week’s materials using the links below (the will be made available as the course progresses):
+Welcome to Nanoscale Material Modelling! Access each week’s materials using the links below (they will be made available as the course progresses):
 
 - [Week 1 Repository](https://github.com/giuntoli-group/nmm-week1)
 - [Week 2 Repository](https://github.com/giuntoli-group/nmm-week2)
