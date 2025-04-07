@@ -14,6 +14,8 @@ Welcome to Nanoscale Material Modelling! Access each week’s materials using th
 
 ## Kickoff assignment
 
+Below are some basic functionalities we will need to use throughout the course. For some of you they might be familiar, others might be encountering them for the first time. While in principle we can look at them together, if this material is new for you we do recommend that you go through this simple assignment on your own before the first lecture, to ensure a smooth start of the course.
+
 ---
 
 
