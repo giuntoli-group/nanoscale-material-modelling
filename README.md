@@ -79,7 +79,13 @@ cd  /scratch/hb-nanoscale/
 ### Setting up environments and using software modules
 
 
-We will show how to use existing software on Habrok when needed, and also how to install our own, i.e. Beadspring Analytics. We will use conda environments to install Python packages. This is normally not suggested on HPC systems because of performance issues, but we don't care because it's the easiest way to do it and our post-processing scripts are generally not be memory or CPU heavy. Once you login, you are automatically in the `/home/$USER` directory. This directory is backed up and has a storage quota of 50GB. It is meant to store your installed software and scripts, not the data. For data storage we will use `/scratch/$USER`. Let's first install an existing Anaconda distirbution from the software stack. Type
+We will show how to use existing software on Habrok when needed, and also how to install our own, i.e. Beadspring Analytics. We will use conda environments to install Python packages. This is normally not suggested on HPC systems because of performance issues, but we don't care because it's the easiest way to do it and our post-processing scripts are generally not be memory or CPU heavy. Once you login, you are automatically in the `/home/$USER` directory. This directory is backed up and has a storage quota of 50GB. It is meant to store your installed software and scripts, not the data. There are four different "/home" directories on Habrok. Please type `pwd` once you are logged in, to find your home directory. You will see something like
+
+```bash=
+/home4/s123456
+```
+
+For data storage we will use `/scratch/$USER`. Let's first install an existing Anaconda distirbution from the software stack. Type
 
 ```bash!
 module load Anaconda3/2023.09-0
