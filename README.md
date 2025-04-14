@@ -69,11 +69,11 @@ Optional task 1.2: If what you want to do is more complicated than the simple sh
 
 This is where you will store all your data. Keep in mind that you have a quota of 250GB. 
 ```bash
-cd  \scratch\$USER\
+cd  /scratch/$USER/
 ```
 You can copy scripts and data files from the shared data space to your workspace. Access the shared workspace from here
 ```bash
-cd  \scratch\hb-nanoscale-ro
+cd  /scratch/hb-nanoscale/
 ```
 
 ### Setting up environments and using software modules
