@@ -1,4 +1,7 @@
 # **Nanoscale Material Modelling Lecture Notes**
+
+[![hackmd-github-sync-badge](https://hackmd.io/bIxoXj7mSwS96s1I947ciA/badge)](https://hackmd.io/bIxoXj7mSwS96s1I947ciA)
+
 We'll use this section to post real-time updates, links, and shared code. Keep an eye on this space during sessions!
 ### Tips for Posting
 
