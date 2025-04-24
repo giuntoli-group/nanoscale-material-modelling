@@ -13,6 +13,16 @@ Just copy the template and modify it. Formatting doesnâ€™t have to be perfect â€
 -
 -
 
+
+## Week 2
+
+- Good morning! Can you access `/scratch/hb-nanoscale/nmm-week2`? If you can't please try to clone the repository to your home or scratch directory using `git clone git@github.com:giuntoli-group/nmm-week2.git` (utku)
+
+- One thing you can try to get XCrySDen to work on mac machines, you try installing XQuartz software. Instructions can be seen here: https://docs.cse.lehigh.edu/xforwarding/xforwarding-mac/ 
+
+- Please change the topology file name from `final.topo` to `final.data` in `nmm-week1/scripts/in.3dlj`. If you haven't run the simulation yet, this is updated on the github page (utku, 22/04/2025)
+
+
 ## Week 1
 - Tip: add the following line to `~/.bashrc`
 ```bash
