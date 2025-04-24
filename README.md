@@ -1,6 +1,6 @@
 # Course Main Repository 
 
-Welcome to Nanoscale Material Modelling! Access each week’s materials using the links below (they will be made available as the course progresses):
+Welcome to Nanoscale Material Modelling! Access each week’s materials using the links below. They will be made available as the course progresses. You can find the static version of lecture notes on this repository. Click [here](https://hackmd.io/bIxoXj7mSwS96s1I947ciA?both) to access the dynamic version. We will update the static version after each lecture. 
 
 - [Week 1 Repository](https://github.com/giuntoli-group/nmm-week1)
 - [Week 2 Repository](https://github.com/giuntoli-group/nmm-week2)
