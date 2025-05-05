@@ -13,6 +13,11 @@ Just copy the template and modify it. Formatting doesn’t have to be perfect �
 -
 -
 
+## Week 4
+
+
+## Week 3
+
 
 ## Week 2
 
@@ -74,9 +79,9 @@ Type in our questions about anything. Feel free to respond to each other as well
 - `scp` is simpler and just copies files from source to destination.
 - `rsync` is more efficient for repeated transfers — it only copies the differences (deltas) between source and destination, supports resuming transfers, and has more options for syncing directories.
 
-### Q: <type here> 
-**A:** <type here>
-
+### Q: In week 1 assignment 4, you have asked to change the number of processors. It is unclear since there has to be distinction between task, node, cpu, gpu, and cores. In the documentation, we can specify the number of tasks (-n) and cores per task (-c), for example. I understand that we will get n*c cores (processors), but the provided script sets n=12 (and c=1 by default). Is my understanding correct? I would then set n=2 and n=64 as the assignment asks? If so, what is the difference between, for example, n=12 c=1 and n=2 c=6? 
+**A:** 
+The names can indeed be confusing, especially since Slurm uses a slightly different terminology compared to the colloquial one. In Habrok, each node has 128 processors (set by the ntasks option), and each processor (core) can be split into further logical partitions called threads (set by the cpus-per-task option). It is really hard to find the optimal choice of the number of threads/core (multithreading) for lammps simulations. This can vary wildly depending on the simulating system and the HPC architecture. So it is best we stick to 1 thread/core and use multiprocessing to increase performance instead. In short, keep the default c=1 and change ntasks.
 
 ### Q: <type here>
 **A:** <type here>
