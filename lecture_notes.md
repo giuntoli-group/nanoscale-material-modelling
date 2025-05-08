@@ -9,12 +9,15 @@ Just copy the template and modify it. Formatting doesnâ€™t have to be perfect â€
 
 ## Announcements (in reverse chronological order)
 
--
--
--
+:::success
+Please download the reading material [here](https://filesender.surf.nl/?s=download&token=14e43dec-820b-402a-885b-bcfe2df180bf) until May 28th. (utku, 07/05/2025)
+:::
 
 ## Week 4
 
+- Run `git clone git@github.com:giuntoli-group/nmm-week4.git`
+
+-
 
 ## Week 3
 
